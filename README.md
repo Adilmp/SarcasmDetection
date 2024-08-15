@@ -1,4 +1,18 @@
-# SarcasmDetector
-A NLP based Sarcasm Detector that uses Proposed feature reduction and reduced N-gram prediction to detect whether a phrase has Sarcasm.
+🚀 Unraveling Sarcasm with NLP! 🤔
+===================================
 
-Sarcasm detection model is developed using a dataset of sarcastic and non-sarcastic headlines obtained from the Sarcasm Headlines Dataset. The dataset is carefully preprocessed, extracting the relevant fields, such as headlines and sarcasm labels, which are essential for training and evaluation. To extract meaningful features from the dataset, several techniques are employed. Firstly, sentiment analysis is conducted using NLP techniques to capture the underlying sentiment and emotional context expressed in the headlines. This involves analyzing the polarity and intensity of the sentiments conveyed. Additionally, common-sense knowledge expansion is incorporated using SentiWordNet, a lexical resource that assigns sentiment scores to words based on their semantic properties. By leveraging this common-sense knowledge, the model gains a deeper understanding of the subtle nuances and contradictory elements often found in sarcastic statements. Furthermore, sentence-level sentiment analysis is performed to capture sentiment information at a more granular level. This analysis enables the model to identify sentiment transitions and shifts within individual sentences, which can be indicative of sarcasm. Based on the results of sentiment analysis, common-sense knowledge expansion, and sentence-level sentiment analysis, feature vectors are constructed. These feature vectors serve as the input for training the support vector machine (SVM) classifiers. SVM is a powerful machine learning algorithm known for its effectiveness in binary classification tasks, making it suitable for sarcasm detection. To evaluate the performance of the sarcasm detection model, the dataset is split into training and testing sets using the train_test_split function. This allows for training the model on a subset of the data and evaluating its performance on unseen examples. The evaluation metrics used include accuracy, precision, recall, and F1 score. These metrics provide insights into the model's ability to correctly identify sarcastic instances, measure the proportion of correctly identified sarcastic instances among all actual sarcastic instances, and provide an overall assessment of the model's performance. By employing this methodology, the study aims to develop a robust sarcasm detection model that effectively captures the nuances of sarcastic language. This model can enhance the accuracy and reliability of sarcasm detection in various applications, such as sentiment analysis, social media monitoring, and customer feedback analysis
+SarcasmDetector is a cutting-edge Natural Language Processing (NLP) model designed to detect sarcasm with unparalleled precision. Leveraging advanced feature reduction techniques and reduced N-gram prediction, this model aims to decipher the subtle art of sarcasm in text.
+
+🔍 What Sets It Apart?
+===========================
+
+Sophisticated Feature Extraction: Utilizes sentiment analysis and common-sense knowledge expansion through SentiWordNet to grasp the emotional and contextual nuances of sarcastic remarks.
+
+Granular Analysis: Performs sentence-level sentiment analysis to catch shifts and transitions that hint at sarcasm.
+
+Powerful Classification: Trained with Support Vector Machine (SVM) classifiers for robust binary classification.
+
+📊 Evaluated for Excellence:
+================================
+
+The model is rigorously tested using accuracy, precision, recall, and F1 score to ensure it reliably identifies sarcastic content. Perfect for enhancing sentiment analysis, social media monitoring, and customer feedback systems.
